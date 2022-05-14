@@ -19,10 +19,10 @@
     <finalName>uday</finalName>
   </build>
   <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>hari-VirtualBox-releases</name>
-        <url>http://192.168.43.63:8081/artifactory/libs-release-local</url>
-    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>hari-VirtualBox-snapshots</name>
+        <url>http://192.168.43.63:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
